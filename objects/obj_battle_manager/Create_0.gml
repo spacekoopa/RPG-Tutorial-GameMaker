@@ -1,4 +1,4 @@
-enemy_ = false;
+enemy_turn = false;
 damage_to_enemy = 0;
 
 function player_attack(_damage) {
