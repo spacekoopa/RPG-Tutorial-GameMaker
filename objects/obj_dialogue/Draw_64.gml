@@ -12,11 +12,15 @@ draw_set_font(Font1);
 
 var _name = messages[current_message].name;
 
-draw_set_colour(global.char_colors[$ _name]);
+if (global.char_colors[$ _name] = undefined) {
+    draw_set_colour(c_white);
+}
+else {
+    draw_set_colour(global.char_colors[$ _name]);
+}
 draw_text(_dx, _dy, _name);
 
 draw_set_colour(c_white);
-
 _dy += 40;
 
 draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 2);
