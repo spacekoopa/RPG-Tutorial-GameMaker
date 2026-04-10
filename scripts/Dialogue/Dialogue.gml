@@ -9,7 +9,8 @@ function create_dialogue(_messages){
 char_colors = {
     "Congrats": c_yellow,
     "Cross": c_yellow,
-    "Singh": c_aqua
+    "Singh": c_aqua,
+    "Cam": c_orange
 };
 
 welcome_dialogue = [
@@ -36,5 +37,17 @@ welcome_dialogue = [
 {
     name: "Cross",
     msg: "Can you make it to the end?"
+},
+];
+
+cam_diag1 = [
+{
+    name: "Cam",
+    msg: "I'm scared to go inside."
+},
+
+{
+    name: "Cam",
+    msg: "Can you try first please?"
 },
 ];
