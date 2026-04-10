@@ -25,6 +25,13 @@ room1_end = [
 },
 ];
 
+debug_roomskip = [
+{
+    name: "Debug skip",
+    msg: "Skipping to Room 2"
+}
+]
+
 welcome_dialogue = [
 {
     name: "Cross",
