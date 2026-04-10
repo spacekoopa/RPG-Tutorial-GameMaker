@@ -1,16 +1,5 @@
 if (instance_exists(obj_dialogue)) exit;
 
-
-if (keyboard_check_pressed(vk_space)) {
-    create_dialogue([
-    {
-        name: "Test dialogue!",
-        msg: "It works!"
-    }
-    ]);
-}
-
-
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
